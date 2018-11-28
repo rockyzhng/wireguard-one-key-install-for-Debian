@@ -8,9 +8,9 @@ wget --no-check-certificate -qO- 'https://github.com/rockyzhng/wireguard-one-key
 
 默认端口default port: 51820
 
-关闭命令Shutdown: wg-quick down wg0
+关闭命令shutdown: wg-quick down wg0
 
-启动命令Start: wg-quick up wg0
+启动命令start: wg-quick up wg0
 
 服务端配置文件server config: /etc/wireguard/wg0.conf
 
