@@ -4,7 +4,7 @@ wireguard one-keyinstall for debian 8+
 
 一键命令Usage:
 
-wget --no-check-certificate -qO- 'https://github.com/rockyzhng/wire-guard-one-key-install/blob/master/wireguard.sh'| bash
+wget --no-check-certificate -qO- 'https://github.com/rockyzhng/wireguard-one-key-install-for-Debian/blob/master/wireguard.sh'| bash
 
 关闭命令Shutdown: wg-quick down wg0
 
