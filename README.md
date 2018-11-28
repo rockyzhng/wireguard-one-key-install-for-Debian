@@ -1,6 +1,6 @@
 # wire-guard-one-key-install
 
-wireguard one-keyinstall for debian 8+
+wireguard one-key install for debian 8+
 
 一键命令Usage:
 
