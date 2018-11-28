@@ -6,6 +6,8 @@ wireguard one-keyinstall for debian 8+
 
 wget --no-check-certificate -qO- 'https://github.com/rockyzhng/wireguard-one-key-install-for-Debian/blob/master/wireguard.sh'| bash
 
+默认端口default port: 51820
+
 关闭命令Shutdown: wg-quick down wg0
 
 启动命令Start: wg-quick up wg0
