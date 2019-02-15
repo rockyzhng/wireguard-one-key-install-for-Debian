@@ -1,7 +1,7 @@
 #!/bin/bash
 
 WG_PORT='51820'
-IPAddr=`wget --no-check-certificate -qO- http://moeclub.org/address`
+IPAddr=`wget --no-check-certificate -qO- http://whatismyip.akamai.com`
 POOL='https://deb.debian.org/debian/pool/main/w/wireguard/'
 
 [ `dpkg -s libc6 |grep '^Version' |grep -o '[0-9\.]\{4\}' |head -n1 |cut -d'.' -f2` -ge "14" ] || exit 0
