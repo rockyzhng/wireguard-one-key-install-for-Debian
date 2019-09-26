@@ -1,6 +1,6 @@
 #!/bin/bash
 
-WG_PORT='51820'
+WG_PORT='5222'
 IPAddr=`wget --no-check-certificate -qO- http://whatismyip.akamai.com`
 POOL='https://deb.debian.org/debian/pool/main/w/wireguard/'
 
